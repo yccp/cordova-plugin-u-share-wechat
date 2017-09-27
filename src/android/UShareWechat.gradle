@@ -1,0 +1,10 @@
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile files('libs/SocialSDK_WeiXin_Full.jar')
+    compile files('libs/wechat-sdk-android-with-mta-1.1.6.jar')
+}
