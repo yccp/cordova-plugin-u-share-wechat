@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin 
-  xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-u-share-wechat" version="1.0.0">
+  xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-u-share-wechat" version="1.0.1">
   <name>UShareWechat</name>
   <description>Cordova Plugin for Umeng Share Wechat</description>
   <license>ISC</license>
