@@ -43,13 +43,10 @@ public class UShareWechat extends CordovaPlugin {
     public boolean execute(String action, CordovaArgs args, CallbackContext callbackContext) throws JSONException {
         LOG.d("u-share-wechat", String.format("%s is called. Callback ID: %s.", action, callbackContext.getCallbackId()));
 
-        switch (action) {
-            case "sendPaymentRequest":
+        if (action.equals("sendPaymentRequest")) {
                 return this.sendPaymentRequest(args, callbackContext);
-            default:
-                callbackContext.error("Unkown action");
         }
-
+        callbackContext.error("Unkown action");
         return false;
     }
 
